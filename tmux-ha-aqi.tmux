@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-aqi="#($CURRENT_DIR/ha-aqi.sh)"
+aqi="#($CURRENT_DIR/scripts/ha-aqi.sh)"
 
 aqi_interpolation="\#{aqi}"
 
